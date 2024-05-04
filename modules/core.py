@@ -154,3 +154,7 @@ def preload():
     download_models()
     if sys.platform == "win32":
         install_ffmpeg()
+
+
+if __name__ == "__main__":
+    preload()
